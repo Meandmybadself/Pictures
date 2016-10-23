@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    html,body,#image {
+      width:100%;
+      height:100%;
+      padding:0;
+      margin:0;
+    }
+    #image {
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="image"></div>
+  </body>
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>
